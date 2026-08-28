@@ -32,12 +32,11 @@ body {
 
 .form-card h1 {
     text-align: center;
-    font-size: clamp(1.1rem, 4vw, 1.5rem);
+    font-size: clamp(1.1rem, 3.5vw, 1.1rem);
 }
 
 .form-card h2 {
-    font-size: clamp(1.1rem, 4vw, 1.5rem);
-    font-size: 10px;
+    font-size: clamp(0.85rem, 3vw, 1.5rem);
     text-align: center;
 }
     
@@ -46,8 +45,8 @@ body {
     color: #6b7280;
     font-weight: 100;
     margin-top: 10px;
-    font-size: (1.0em, 4vw, 1.5rem);
-    font-size: smaller;
+    font-size: (0.75rem, 2.5vw, 0.95rem);
+    
 }
 
 @media (max-width: 480px) {
@@ -56,11 +55,11 @@ body {
     }
 
     .form-card h2 {
-        font-size: 16px;
+        font-size: 13px;
     }
     
     .form-card h3 {
-        font-size: 16px;
+        font-size: 11px;
     }
     
     .form-card {
