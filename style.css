@@ -10,19 +10,19 @@ body {
 
 h1 {
     color: #111827;
-    margin-top: 6px;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 4px 0;
+    margin-bottom: 50px;
+    
 }
 
 h2 {
     color: #111827;
     margin-bottom: 1px;
-}
-
-.form-card h1, .form-card h2 {
     font-size: 22px;
-    font-weight: 700;
     text-align: center;
-    margin: 0 0 4px 0;
 }
 
 .form-card p.subtitle, .form-card h2 {
@@ -106,11 +106,7 @@ a:hover {
 }
 
 @media (max-width: 480px) {
-    .form-card h1 {
-        font-size: 16px; 
-    }
-    
-    .form-card {
-        padding: 20px; 
+    .form-card h2 {
+        font-size: 13px;
     }
 }
