@@ -1,0 +1,116 @@
+body {
+    background-color:#f3f4f6;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #111827;
+    margin-top: 6px;
+}
+
+h2 {
+    color: #111827;
+    margin-bottom: 1px;
+}
+
+.form-card h1, .form-card h2 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 4px 0;
+}
+
+.form-card p.subtitle, .form-card h2 {
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.user-input input::placeholder {
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+.form-card {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-input {
+    flex-grow: 1;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-input input, button {
+    padding: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.user-input input {
+    flex: 1;
+    border: 1px solid #e5e7eb;
+}
+
+.user-input label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+button {
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    background-color: #10b981;
+    color: white;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: #059669;
+}
+
+a {
+    color: #059669;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .form-card h1 {
+        font-size: 16px; 
+    }
+    
+    .form-card {
+        padding: 20px; 
+    }
+}
